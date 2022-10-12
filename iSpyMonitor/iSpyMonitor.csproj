@@ -86,7 +86,6 @@
     <PostBuildEvent>if "$(ConfigurationName)" == "Release" (
     del $(ProjectDir)$(OutDir)*.pdb"
     del "$(ProjectDir)$(OutDir)*.vshost.exe"
-    call "$(SolutionDir)signing\monitor.bat"
 )</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
